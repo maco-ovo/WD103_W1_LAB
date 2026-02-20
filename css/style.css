@@ -23,19 +23,17 @@ body {
 
 h1 {
     color: #2c3e50;
-    margin-top: 0;
 }
 
 /* --- Combinator Selectors --- */
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 20px;
 }
 
 /* --- Pseudo-classes --- */
@@ -57,12 +55,13 @@ nav ul li a:hover {
 }
 
 main {
+    text-align: center;
     max-width: 800px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
-.hero-image {
+img {
     max-width: 60%;
     height: auto;
     border-radius: 8px; 
@@ -70,15 +69,20 @@ main {
 }
 
 blockquote {
-    font-style: italic;
+    font-family: "Georgia", serif;
     font-size: 1.2em;
     border-left: 4px solid #27ae60;
     padding-left: 15px;
     margin: 30px 0;
-    color: #555;
-}
+    color: #6d6d6d;
 
+}
+.text-content ul {
+    list-style-type: none;
+    padding-left: 0; 
+}
 /* --- Table --- */
+
 table {
     width: 100%;
     border-collapse: collapse; 
@@ -86,15 +90,22 @@ table {
     background-color: #ffffff;
 }
 
-caption {
-    font-size: 1.1em;
+caption h3{
+    font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: left;
     color: #2c3e50;
 }
+caption {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #3a5067;
+}
 
 th, td {
+    font-family:monospace ;
     padding: 12px 15px;
     border-bottom: 1px solid #ecf0f1;
     text-align: left;
@@ -110,6 +121,7 @@ tbody tr:nth-child(even) {
     background-color: #fafbfc;
 }
 
+/* ---- footer ----- */
 footer {
     text-align: center;
     padding: 20px;
