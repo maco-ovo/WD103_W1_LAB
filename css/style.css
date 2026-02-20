@@ -1,0 +1,123 @@
+
+
+/* --- Base Styles --- */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+
+    background-color: #faf9f6; 
+    color: rgb(51, 51, 51); 
+
+    line-height: 1.6;
+    margin: 3rem;
+    padding: 20px;
+}
+
+/* --- ID Selector --- */
+#main-header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 1px solid#c5c7c7;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* --- Combinator Selectors --- */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* --- Pseudo-classes --- */
+nav ul li a {
+    text-decoration: none;
+    color: #7f8c8d;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+nav ul li a:hover {
+    color: #27ae60;
+}
+
+/* --- Class Selectors --- */
+.active {
+    color: #27ae60;
+    border-bottom: 2px solid #27ae60;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.hero-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px; 
+    margin: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.2em;
+    border-left: 4px solid #27ae60;
+    padding-left: 15px;
+    margin: 30px 0;
+    color: #555;
+}
+
+/* --- Table --- */
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 40px;
+    background-color: #ffffff;
+}
+
+caption {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #2c3e50;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ecf0f1;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f6f7;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fafbfc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #95a5a6;
+    font-size: 0.9em;
+    margin-top: 60px;
+    border-top: 1px solid #e0e0e0;
+}
+footer a.brand > img {
+    width: 130px;
+}
